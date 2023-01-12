@@ -1,0 +1,9 @@
+import java.io.*;
+
+class nonargument {
+    nonargument() { super(); }
+    public static void main(String[] args)
+    {
+        nonargument nonargument = new nonargument();
+    }
+}
