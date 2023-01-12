@@ -1,0 +1,22 @@
+/**
+ * Write a description of class gfg here.
+ *
+ * @Carmen Alway
+ * @Jan 12, 2023
+ */
+
+class constructor{
+    int num;
+    String name;
+    
+    constructior() { System.out.println("constructor called"); }
+}
+class GFG {
+    public static void main(String[]args)
+    {
+        constructor constuctor1 = new constructor();
+        
+        System.out.println(constructor1.name);
+        System.out.println(constructor1.num);
+    }
+}
